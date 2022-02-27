@@ -1,0 +1,10 @@
+---
+- hosts: all
+  remote_user: root
+
+  tasks:
+     - name:  uncomment a line
+    lineinfile: dest=/etc/ssh/sshd_config
+                regexp='^'
+                line='Port 1834'
+                state=present
