@@ -1,0 +1,34 @@
+---
+- hosts: all
+  remote_user: root
+
+  tasks:
+  - name: Установка пакетов
+    apt: pkg={{ item }} state=latest
+    with_items:
+      - rsync
+      - wget
+      - nano
+      - atop
+      - curl
+    when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+  - name: Установка пакетов
+    yum: pkg={{ item }} state=latest
+    with_items:
+      - atop
+      - bind-utils
+      - man
+      - mc
+      - nano
+      - net-tools
+      - ntp
+      - rsync
+      - smartmontools
+      - perl
+      - pwgen
+      - tcpdump
+      - wget
+      - curl
+      
+      
