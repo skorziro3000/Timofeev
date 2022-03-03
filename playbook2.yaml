@@ -30,5 +30,5 @@
       - tcpdump
       - wget
       - curl
-      
+    when: ansible_distribution == 'CentOS' 
       
