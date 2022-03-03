@@ -19,8 +19,8 @@
     syn: match
     jump: ACCEPT
     comment: Accept new SSH connections.
-    - name: Allow new incoming SYN packets on TCP port 1834
     
+    - name: Allow new incoming SYN packets on TCP port 1834
   ansible.builtin.iptables:
     chain: INPUT
     protocol: tcp
@@ -30,7 +30,7 @@
     jump: ACCEPT
     comment: Accept new SSH connections.
     
-    - name: Allow new incoming SYN packets on TCP port 22 (SSH)
+    - name: Allow new port TCP 80
   ansible.builtin.iptables:
     chain: INPUT
     protocol: tcp
