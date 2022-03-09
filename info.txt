@@ -1,3 +1,5 @@
 Gentoo https://lisakov.com/blog/gentoo-for-goofy/
 https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Disks/ru
 https://wiki.gentoo.org/wiki/Handbook:Parts/Full/Installation/ru
+
+Формат комита: Год/месяц/день/час/минута
