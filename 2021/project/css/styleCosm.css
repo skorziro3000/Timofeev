@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 20;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a :hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body {
+    background-image:url(fon3.jpg);
+    background-size: 100% ;
+    background-repeat: repeat;
+}
+
+.sp {
+    font-size: 26px;
+    color: #5f4670;
+    font-weight: 800;
+    text-shadow: 2px -2px 2px #111111;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 35px;
+    text-indent: 0;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+.text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #5d67a5;
+    border: 5px solid #010120;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding: 10px 10px 10px 10px;
+    margin: 1% 10% 1% 10%;
+    background-color: #10073b99;
+    min-width: 500px;
+    /*overflow: auto;
+    max-height: 1000px;*/
+}
+p:not(.sp){
+    padding: 0px 0px 30px 0px;
+}
+q {
+    font-style: italic;
+    font-size: 20px;
+    color: #b33a80;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.Form {
+    font-size: 22px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    color: #5d67a5;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    border: 5px solid #010120;
+    padding: 10px 10px 10px 10%;
+    margin: 1% 10% 1% 10%;
+    line-height: 25px;
+    text-align: left;
+    background-color: #10073b99;
+    min-width: 500px;
+}
+.oll {
+    font-size: 18;
+    font-family: "Times New Roman", Times, serif;
+    color: #5d67a5;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 35px;
+    text-indent: 0;
+    padding: 10px 10px 10px 10%;
+    min-width: 500px;
+}
+.spis {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    color: #5d67a5;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-shadow: 1px -1px 1px #111111;
+    text-indent: 0px;
+    text-align: start;
+    padding: 20px 10px 20px 50px;
+}
+h1.glavzagol {
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-weight: 600;
+    color: #5f4670;
+    text-shadow: 3px -3px 5px #111111;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10% 10px 10%;
+    /*white-space: nowrap;*/
+    background-color: #10073b99;
+    border: solid #010120 5px;
+    min-width: 500px;
+}
+a {
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: #2f857f;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.img{
+    width: 90%;
+    padding: 3% 1% 10% 10%;
+}

@@ -79,14 +79,14 @@ h6 {
 }
 
 body {
-    background-image:url(fon3.jpg);
+    background-image:url(IT\ TEXT\ 5.png);
     background-size: 100% ;
     background-repeat: repeat;
 }
 
 .sp {
     font-size: 26px;
-    color: #5f4670;
+    color: #83d31a;
     font-weight: 800;
     text-shadow: 2px -2px 2px #111111;
     letter-spacing: 0.5px;
@@ -100,7 +100,7 @@ body {
 .text {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    color: #5d67a5;
+    color: #d9e757;
     border: 5px solid #010120;
     text-align: justify;
     text-indent: 30px;
@@ -108,7 +108,7 @@ body {
     word-spacing: 1px;
     padding: 10px 10px 10px 10px;
     margin: 1% 10% 1% 10%;
-    background-color: #10073b99;
+    background-color: #052a0299;
     min-width: 500px;
     /*overflow: auto;
     max-height: 1000px;*/
@@ -166,7 +166,7 @@ h1.glavzagol {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     font-weight: 600;
-    color: #5f4670;
+    color: #8eac0c;
     text-shadow: 3px -3px 5px #111111;
     letter-spacing: 3px;
     word-spacing: 3px;
@@ -174,7 +174,7 @@ h1.glavzagol {
     padding: 10px 10px 10px 10px;
     margin: 10px 10% 10px 10%;
     /*white-space: nowrap;*/
-    background-color: #10073b99;
+    background-color: #3d170299;
     border: solid #010120 5px;
     min-width: 500px;
 }
