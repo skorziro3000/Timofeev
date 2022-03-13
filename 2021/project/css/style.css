@@ -87,5 +87,31 @@ body {
 .glav {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    
+    text-align: center;
+    /*padding: 10%;
+    margin: 1%;
+    background-color: #12345678;*/
+
+}
+
+.img{
+    width: 90%;
+    padding: 3% 1% 10% 10%;
+}
+
+.text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #5d67a5;
+    border: 5px solid #010120;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding: 10px 10px 10px 10px;
+    margin: 1% 10% 1% 10%;
+    background-color: #10073b99;
+    min-width: 500px;
+    /*overflow: auto;
+    max-height: 1000px;*/
 }
